@@ -3,7 +3,7 @@ package com.example.crashcourse;
 public class Person {
     public String firstName;
     public String lastName;
-    private String middleName;
+    public String middleName;
     private int userID;
 
     public String getFullName() {
@@ -14,5 +14,22 @@ public class Person {
         return "Hi!";
     }
 
-    //constructor
+    public Person(String firstName, String lastName, String middleName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.middleName = middleName;
+    }
+//constructor
+
+    @Override
+    public String toString() {
+        return "This person's name is " + this.firstName + " " +this.lastName + ".";
+    }
+
+    public Person(String firstName) {
+        this.firstName = firstName;
+
+        //ToString
+
+    }
 }

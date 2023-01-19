@@ -48,14 +48,16 @@ public class CrashCourseApplication {
     }
     //main function
     public static void main(String[] args) {
-        Person bobRoss = new Person();
-        bobRoss.firstName = "Bob";
-        bobRoss.lastName = "Ross";
-        bobRoss.middleName = "Julian";
+        Person bobRoss = new Person( "Bob", "Ross", "Julian");
         bobRoss.getFullName();
+        String bobsFirst = bobRoss.firstName;
         Person.sayHi();
+        bobRoss.toString();
+        System.out.println(bobRoss);
 
     }
+
+//   to string
 
     // OOP: classes and instants
 
