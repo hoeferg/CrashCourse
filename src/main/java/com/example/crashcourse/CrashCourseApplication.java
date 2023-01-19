@@ -28,6 +28,16 @@ public class CrashCourseApplication {
 
     Double anotherNum = (double) aNewWholeNum;
     //privacy
+    public String lastName = "Hoefer";
+//        Can assess within and without the scope of the method
+    private String middleName = "E";
+//    Can assess only within the scope of the method
 
+    //final
+
+    private final String DOB = "01.01.2001";
+    public final String firstPetsName = "Bob";
+
+//    funct
 
 }
