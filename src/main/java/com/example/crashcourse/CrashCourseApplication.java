@@ -28,7 +28,7 @@ public class CrashCourseApplication {
 
     Double anotherNum = (double) aNewWholeNum;
     //privacy
-    public String lastName = "Hoefer";
+    public String lastName = "Billy";
 //        Can assess within and without the scope of the method
     private String middleName = "E";
 //    Can assess only within the scope of the method
@@ -38,6 +38,26 @@ public class CrashCourseApplication {
     private final String DOB = "01.01.2001";
     public final String firstPetsName = "Bob";
 
-//    funct
+//    function declarations
+    public String getFullName() {
+        return firstName + middleName + lastName;
+    }
+    //void
+    private void updateDBInsurancePremiun(double newPremium) {
+        db.update(newPremium);
+    }
+    //main function
+    public static void main(String[] args) {
+        Person bobRoss = new Person();
+        bobRoss.firstName = "Bob";
+        bobRoss.lastName = "Ross";
+        bobRoss.middleName = "Julian";
+        bobRoss.getFullName();
+        Person.sayHi();
+
+    }
+
+    // OOP: classes and instants
+
 
 }
