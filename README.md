@@ -2,11 +2,8 @@
 
 ## Table of Contents  
 * [Description](##Description)  
-* [Technologies](##Technologies)  
-* [Screenshot](##Screenshot)  
-* [Installation](##Installation)  
 * [License](##License)  
-* [Questions](##Questions)  
+* [Contact](##Contact)  
 
 ## Description
 
