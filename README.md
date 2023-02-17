@@ -1,5 +1,7 @@
 # Java Crash Course
 
+<img src="java.png" />
+
 ## Table of Contents  
 * [Description](##Description)  
 * [License](##License)  
